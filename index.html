@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <body>
+    <div class="container">
+      <h1 class="heading">Currency Convertor</h1>
+      <form action="#">
+        <input
+          type="text"
+          class="amount"
+          placeholder="Enter amount to be converted"
+        />
+        <div class="form">
+            <h4>From</h4>
+          <div class="select">
+            <div class="options">
+              
+              <div class="dropdowns">
+                <img src="https://flagsapi.com/US/flat/64.png" alt="USA" class="fromFlag"/>
+                <select name="from-country" id="from-country"></select>
+              </div>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-arrow-right-arrow-left icon"></i>
+
+          <h4>To</h4>
+          <div class="select">
+            <div class="options">
+              
+              <div class="dropdowns">
+                <img src="https://flagsapi.com/IN/flat/64.png" alt="IN" class="toFlag"/>
+                <select name="to-country" id="to-country"></select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>1 USD = 84 INR</p>
+        <button class="button">Get Exchange Rate</button>
+      </form>
+    </div>
+    <!-- <script src="/API/script.js"></script> -->
+    <script src="/API/countryCode.js"></script>
+  </body>
+</html>
