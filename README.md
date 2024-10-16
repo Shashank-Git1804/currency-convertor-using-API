@@ -1,4 +1,6 @@
 # currency-convertor-using-API
 created a currency convertor using free public API
-<a href="https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"><b>CURRENCY CONVERTOR<b></a>
-<a href="https://flagsapi.com/IN/flat/64.png"><b>COUNTRYS FLAGS<b></a>
+<br>
+<h4>Link of currency convertor API:-</h4><a href="https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json">CURRENCY CONVERTOR</a>
+<br>
+<h4>Link to countrys flags:-</h4><a href="https://flagsapi.com/IN/flat/64.png">COUNTRYS FLAGS</a>
